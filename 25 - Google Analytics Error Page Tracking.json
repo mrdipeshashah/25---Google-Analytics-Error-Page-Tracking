@@ -1,0 +1,878 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2021-08-03 20:50:29",
+    "containerVersion": {
+        "path": "accounts/4701529512/containers/49387428/versions/0",
+        "accountId": "4701529512",
+        "containerId": "49387428",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/4701529512/containers/49387428",
+            "accountId": "4701529512",
+            "containerId": "49387428",
+            "name": "25 - Google Analytics Error Page Tracking",
+            "publicId": "GTM-WBJ4VNM",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1627933005928",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/4701529512/containers/49387428/workspaces?apiLink=container"
+        },
+        "tag": [
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "tagId": "24",
+                "name": "Live Google Analytics - Page Not Found",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useEcommerceDataLayer",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Error Page"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "metric",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "metric",
+                                        "value": "1"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "Page Not Found"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Page URL}}"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "dimension",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "Error Page"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "Page Not Found"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "{{Live Google Analytics ID}}"
+                    }
+                ],
+                "fingerprint": "1627938325392",
+                "firingTriggerId": [
+                    "29"
+                ],
+                "parentFolderId": "13",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "tagId": "26",
+                "name": "Live Google Analytics Pageview",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useEcommerceDataLayer",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_PAGEVIEW"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "{{Live Google Analytics ID}}"
+                    }
+                ],
+                "fingerprint": "1627939494178",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "parentFolderId": "13",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "tagId": "32",
+                "name": "Live Google Analytics - 404",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useEcommerceDataLayer",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Error Page"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "metric",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "metric",
+                                        "value": "1"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "404"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Page URL}}"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "dimension",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "Error Page"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "404"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "{{Live Google Analytics ID}}"
+                    }
+                ],
+                "fingerprint": "1627938374948",
+                "firingTriggerId": [
+                    "31"
+                ],
+                "parentFolderId": "13",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "tagId": "36",
+                "name": "Live Google Analytics - 404 Page Not Found",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useEcommerceDataLayer",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Error Page"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "metric",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "metric",
+                                        "value": "1"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "404 Page Not Found"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Page URL}}"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "dimension",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "Error Page"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "404 Page Not Found"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "{{Live Google Analytics ID}}"
+                    }
+                ],
+                "fingerprint": "1628020702143",
+                "firingTriggerId": [
+                    "35"
+                ],
+                "parentFolderId": "13",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "triggerId": "29",
+                "name": "Error - Page not found",
+                "type": "PAGEVIEW",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Error - Page not found}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Page not found"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1627939560878",
+                "parentFolderId": "34"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "triggerId": "31",
+                "name": "Error - 404",
+                "type": "PAGEVIEW",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Error - H1 404}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "404"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1627939560879",
+                "parentFolderId": "34"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "triggerId": "35",
+                "name": "Error - 404 Page Not Found",
+                "type": "PAGEVIEW",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Error - H1 404}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "PAGE NOT FOUND"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1628020617734",
+                "parentFolderId": "34"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "variableId": "15",
+                "name": "Live Google Analytics ID",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "UA-112030548-2"
+                    }
+                ],
+                "fingerprint": "1627933055972",
+                "parentFolderId": "14",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "variableId": "28",
+                "name": "Error - Page not found",
+                "type": "j",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "document.title"
+                    }
+                ],
+                "fingerprint": "1627939540869",
+                "parentFolderId": "33",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "variableId": "30",
+                "name": "Error - H1 404",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function (){\n  var pageH1 = document.querySelector('H1').innerText;\n  return pageH1;\n}"
+                    }
+                ],
+                "fingerprint": "1627939540868",
+                "parentFolderId": "33",
+                "formatValue": {}
+            }
+        ],
+        "folder": [
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "folderId": "13",
+                "name": "Google Analytics Tags",
+                "fingerprint": "1627933055971"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "folderId": "14",
+                "name": "Platform Variables",
+                "fingerprint": "1627933055972"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "folderId": "33",
+                "name": "Other Variables",
+                "fingerprint": "1627939539600"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "folderId": "34",
+                "name": "Other Tags",
+                "fingerprint": "1627939560039"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "PAGE_URL",
+                "name": "Page URL"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "PAGE_HOSTNAME",
+                "name": "Page Hostname"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "PAGE_PATH",
+                "name": "Page Path"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "REFERRER",
+                "name": "Referrer"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "EVENT",
+                "name": "Event"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "CLICK_ELEMENT",
+                "name": "Click Element"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "CLICK_CLASSES",
+                "name": "Click Classes"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "CLICK_ID",
+                "name": "Click ID"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "CLICK_TARGET",
+                "name": "Click Target"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "CLICK_URL",
+                "name": "Click URL"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "CLICK_TEXT",
+                "name": "Click Text"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "FORM_ELEMENT",
+                "name": "Form Element"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "FORM_CLASSES",
+                "name": "Form Classes"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "FORM_ID",
+                "name": "Form ID"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "FORM_TARGET",
+                "name": "Form Target"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "FORM_URL",
+                "name": "Form URL"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "FORM_TEXT",
+                "name": "Form Text"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "ERROR_MESSAGE",
+                "name": "Error Message"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "ERROR_URL",
+                "name": "Error URL"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "ERROR_LINE",
+                "name": "Error Line"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "NEW_HISTORY_FRAGMENT",
+                "name": "New History Fragment"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "OLD_HISTORY_FRAGMENT",
+                "name": "Old History Fragment"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "NEW_HISTORY_STATE",
+                "name": "New History State"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "OLD_HISTORY_STATE",
+                "name": "Old History State"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "HISTORY_SOURCE",
+                "name": "History Source"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "CONTAINER_VERSION",
+                "name": "Container Version"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "DEBUG_MODE",
+                "name": "Debug Mode"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "RANDOM_NUMBER",
+                "name": "Random Number"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "CONTAINER_ID",
+                "name": "Container ID"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "HTML_ID",
+                "name": "HTML ID"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "ENVIRONMENT_NAME",
+                "name": "Environment Name"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "VIDEO_PROVIDER",
+                "name": "Video Provider"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "VIDEO_URL",
+                "name": "Video URL"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "VIDEO_TITLE",
+                "name": "Video Title"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "VIDEO_DURATION",
+                "name": "Video Duration"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "VIDEO_PERCENT",
+                "name": "Video Percent"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "VIDEO_VISIBLE",
+                "name": "Video Visible"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "VIDEO_STATUS",
+                "name": "Video Status"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "VIDEO_CURRENT_TIME",
+                "name": "Video Current Time"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "SCROLL_DEPTH_THRESHOLD",
+                "name": "Scroll Depth Threshold"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "SCROLL_DEPTH_UNITS",
+                "name": "Scroll Depth Units"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "SCROLL_DEPTH_DIRECTION",
+                "name": "Scroll Direction"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "ELEMENT_VISIBILITY_RATIO",
+                "name": "Percent Visible"
+            },
+            {
+                "accountId": "4701529512",
+                "containerId": "49387428",
+                "type": "ELEMENT_VISIBILITY_TIME",
+                "name": "On-Screen Duration"
+            }
+        ],
+        "fingerprint": "1628023829267",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/4701529512/containers/49387428/versions/0?apiLink=version"
+    }
+}
